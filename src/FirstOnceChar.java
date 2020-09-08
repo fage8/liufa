@@ -1,3 +1,5 @@
+import jdk.nashorn.internal.runtime.regexp.RegExp;
+
 import javax.xml.bind.SchemaOutputResolver;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
@@ -8,6 +10,7 @@ import java.util.Map;
  */
 public class FirstOnceChar {
     public static void main(String[] args) {
+//        System.out.println("6".matches("[2-57-9]"));
         char res = firstUniqChar("leetcode");
         System.out.println(res);
     }
